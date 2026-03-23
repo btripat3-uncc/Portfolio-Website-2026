@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-banner">
+        <h1 class="site-title"></h1>
+    </header>
+
+    <nav>
+    <ul class="menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About Me</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+       
+        
+
+
+        <li class="dropdown">
+            <a href="project.html">Projects</a>
+            <ul class="dropdown-menu">
+                <li><a href="project.html#project1">Project 1</a></li>
+                <li><a href="project.html#project2">Project 2</a></li>
+                <li><a href="project.html#project3">Project 3</a></li>
+                <li><a href="project.html#project4">Project 4</a></li>
+                <li><a href="project.html#project5">Project 5</a></li>
+            </ul>
+        </li>
+
+        <li><a href="index.html#contact" class="cta-button">Contact Me</a></li>
+    </ul>
+</nav>
+
+    <main>
+        <section id="home" class="home">
+            <h1>Meet Brenda Tripathi</h1>
+            <h2 class="home-subheader">Welcome to my portfolio </h2>
+
+            <p> Currently, a junior at UNC Charlotte pursuing Computer Science and Management Information Systems. I design clean UI projects and develop software solutions that are both functional and user-friendly.</p>
+            
+        </section>
+
+
+        <section id="about" class="about-section">
+        <div class="about-container">
+    
+        <div class="about-text">
+        <h2>ABOUT ME</h2>
+        <p>
+        Computer Science and Management Information Systems junior with a strong interest in software development, front-end web development, and business/data analysis. I apply a design centered and problem solving mindset to create funcional, intuitive, and visually appealing solutions. 
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="images/firstpage.png" alt="Girl using computer illustration">
+    </div>
+
+</div>
+  
+</section>
+
+ <section id="education">
+    <h2>EDUCATION</h2>
+        <div class="edu-card">
+            <h3>University of North Carolina at Charlotte, Charlotte, NC</h3>
+            <p>B.A. Computer Science (IT Concentration) and B.S.B.A. Management Information Systems</p>
+            <p>Expected Graduation: December 2027</p>
+            <p>Dean’s List at UNC Charlotte</p>
+         </div>
+
+         <div class="edu-card">
+            <h3>Central Piedmont Community College, Charlotte, NC</h3>
+            <p>Associates and Dual Enrollment</p>
+            <p>August 2022 - May 2023</p>
+         </div>
+            
+        </section>
+
+<section id="skills">
+    <div class="skills-wrapper">
+        <h2 class="vertical-header">SKILLS</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <img src="images/html-logo.png" alt="HTML logo">
+                <span>HTML</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/css-logo.png" alt="CSS logo">
+                <span>CSS</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/javascript-logo.png" alt="JavaScript logo">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/java-logo.png" alt="Java logo">
+                <span>Java</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/python-logo.png" alt="Python logo">
+                <span>Python</span>
+            </div>
+
+            <div class="skill-box">
+                <img src="images/sql-logo.png" alt="SQL logo">
+                <span>SQL</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/vba-logo.svg" alt="VBA logo">
+                <span>VBA</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/github-logo.png" alt="GitHub logo">
+                <span>GitHub</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/excel-logo.png" alt="Excel logo">
+                <span>Excel</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/figma-logo.svg" alt="Figma logo">
+                <span>Figma</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="experience">
+    <div class="experience-wrapper">
+        <h2 class="vertical-header">EXPERIENCE</h2>
+        <div class="experience-container">
+            <div class="exp-box">
+                <h3>Integration Tech Specialist, Classroom Support</h3>
+                <p>Feb 2024 – Present, Charlotte, NC</p>
+                <p>Provide AV and tech support for classrooms, labs, and conference rooms; document issues and resolutions.</p>
+            </div>
+            <div class="exp-box">
+                <h3>Profisee MDM Training and Shadowing</h3>
+                <p>May 2025 – July 2025, Hybrid</p>
+                <p>Training in data management, governance, and integration strategies; shadowed MDM initiative to assist with data model design.</p>
+            </div>
+            <div class="exp-box">
+                <h3>Girls Who Code</h3>
+                <p>May 2023 – Present, Charlotte, NC</p>
+                <p>Participated in summer immersion programs and real-world application projects; facilitated coding workshops and mentored students to promote diversity in technology.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="contact">
+    <h2>CONTACT ME</h2>
+
+    <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+
+    </main>
+
+    <footer>
+     <div class="footer-content">
+        <div class="footer-icons">
+            <a href="https://github.com/btripat3-uncc" target="_blank">
+            <img src="images/github-logo.png" alt="GitHub"> </a>
+
+      <a href="https://linkedin.com/in/brenda-tripathi/" target="_blank">
+        <img src="images/linkedin-logo.png" alt="LinkedIn">
+      </a>
+
+      <a href="mailto:btripat3@charlotte.edu">
+        <img src="images/email-logo.png" alt="Email">
+      </a>
+    </div>  
+
+    <p>© 2026 Brenda Tripathi</p>
+
+    </div>
+    </footer>
+
+    
+
+    <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".menu a");
+
+    window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 150;
+            const sectionHeight = section.offsetHeight;
+
+            if (window.scrollY >= sectionTop &&
+                window.scrollY < sectionTop + sectionHeight) {
+                current = section.getAttribute("id");
+            }
+        });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href").includes(current)) {
+            link.classList.add("active");
+        }
+    });
+});
+</script>
+
+
+</body>
+</html>
